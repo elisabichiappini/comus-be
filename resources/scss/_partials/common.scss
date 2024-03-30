@@ -1,0 +1,75 @@
+/************* 
+COMMON
+**************/
+
+.go-back {
+    margin-top: 20px;
+
+    a {
+        color: $custom-secondary;
+    }
+}
+
+.logo_laravel {
+    width: 80px;
+}
+
+.logo_laravel_admin {
+    width: 400px;
+    padding-bottom: $size_32;
+}
+.main-color {
+    color: $custom-secondary;
+}
+
+.bg-selected {
+    background-color: #5f2b31; //trovare giusta alternativa di hover
+    border-radius: $size_8;
+}
+
+.my-admin-image {
+    width: calc(100% / 2);
+}
+
+// navbar
+.custom-sidebar {
+    background-color: $custom-secondary;
+}
+
+// sidebar
+.custom-navbar {
+    background-color: $custom-secondary;
+}
+
+.admin-bg {
+    background-color: $custom-white;
+}
+
+.cont-img-list {
+    width: 100px;
+    height: 100px;
+
+    img {
+        width: 75%;
+        object-fit: cover;
+    }
+}
+
+.name-restaurant {
+    color: $custom-primary;
+}
+
+//bottone del frontend
+// .custom-btn {
+//     padding: $size-16;
+//     background-color: $custom_primary;
+//     border-radius: $size-16;
+//     color: $custom_white;
+//     border: 0px;
+//     transition: all 0.6s ease-in-out; //ovunque
+  
+//     &:hover {
+//       background-color: $custom-light;
+//     }
+//   }
+  
